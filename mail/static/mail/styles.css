@@ -1,0 +1,28 @@
+textarea {
+    min-height: 400px;
+}
+
+.mail{
+    display: flex;
+    border: 1px groove black;
+    margin-left: 0;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.subject{
+    flex: 1 0 auto;
+    margin-left: 10px; 
+}
+
+.sender, .time{
+    flex: 0 1 auto;
+}
+
+.time{
+    color: rgb(209, 206, 32);
+}
+
+button {
+    margin: 2px;
+}
